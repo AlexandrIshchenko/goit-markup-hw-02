@@ -64,6 +64,8 @@ body {
     background: #FFFFFF;
 }
 
+/* Site nav */
+
 .logo {
     color: #2E2F42;
 }
@@ -72,17 +74,44 @@ body {
     color: #4D5AE5;
 }
 
-/* Site nav */
+.logo-studio {
+    color: #F4F4FD;
+}
 
 .site-nav .link {
     color: #2E2F42;
 }
 
-.contacts .link, {
-    
+.contacts .link {
+    color: inherit;
 }
+
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #434455;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #4D5AE5;
+}
+
+/* Hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* Section */
+
+.section-title {
+    color: #2E2F42;
+}
+
+/* Footer */
+
+.fuuter-text {
+    color: #E7E9FC;
 }

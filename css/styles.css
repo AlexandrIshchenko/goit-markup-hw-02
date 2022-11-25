@@ -1,101 +1,50 @@
-/*
-body {
-    background-color: #ffffff;
-    color: #434455;
-    font-family: robotto, sans-serif;
+:root {
+    --primary-brand: #4D5AE5;
+    --text: #434455;
+    --dark: #2E2F42;
+    --light: #F4F4FD;
+    --accent: #E7E9FC;
 }
-
-.logo {
-    color: #2E2F42;
-    font-family: raleway, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.34;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.logo-web {
-    color: #4D5AE5;
-}
-
-.site-nav a {
-    color: #2E2F42;
-    font-family: raleway, sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.34;
-    text-decoration: none;
-    
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-    color: red;
-}
-
-.contacts a:hover,
-.contacts a:focus {
-    color: red;
-}
-
-.site-nav a:active {
-    color: teal;
-}
-
-.contacts a:active {
-    color: teal;
-}
-
-.contacts a {
-    color: inherit;
-}
-*/
-
-/* 
-основний color: #434455;
-другорядний color: #2E2F42;
-our team background: #F4F4FD;
-герой і футер background: #2E2F42;
-*/
 
 body {
-    color: #434455;
+    color: var(--text);
     background: #FFFFFF;
 }
 
 /* Site nav */
 
 .logo {
-    color: #2E2F42;
+    color: var(--text);
 }
 
 .logo-web {
-    color: #4D5AE5;
+    color: var(--primary-brand);
 }
 
 .logo-studio {
-    color: #F4F4FD;
+    color: var(--light);
 }
 
 .site-nav .link {
-    color: #2E2F42;
+    color:var(--text);
 }
 
 .contacts .link {
     color: inherit;
 }
 
-
-
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #434455;
+    color:var(--text);
+}
+
+.site-nav .link:active {
+    color: var(--primary-brand);
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
-    color: #4D5AE5;
+    color: var(--primary-brand);
 }
 
 /* Hero */
@@ -104,14 +53,42 @@ body {
     color: #FFFFFF;
 }
 
-/* Section */
+/* Advantage */
 
 .section-title {
-    color: #2E2F42;
+    color:var(--dark);
 }
 
 /* Footer */
 
-.fuuter-text {
-    color: #E7E9FC;
+.footer-text {
+    color: var(--accent);
+}
+
+/* Button */
+
+.btn {
+    background-color: var(--primary-brand);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: var(--primary-brand);
+    color: #FFFFFF;
+}
+
+.btn.primary:active {
+    background: #404BBF;
+}
+
+.btn.secondary {
+    background-color: var(--light);
+    color: var(--primary-brand);
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus {
+    background-color: var(--primary-brand);
+    color: #FFFFFF;
 }

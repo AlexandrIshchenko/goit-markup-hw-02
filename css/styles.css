@@ -5,7 +5,7 @@
     --light: #F4F4FD;
     --accent: #E7E9FC;
     --succsesc: #31D0AA;
-    --subtle text: #8E8F99;
+    --subtle-text: #8E8F99;
 }
 
 body {
@@ -60,6 +60,12 @@ li {
 .btn.secondary {
     background-color: var(--light);
     color: var(--primary-brand);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .btn.secondary:hover,

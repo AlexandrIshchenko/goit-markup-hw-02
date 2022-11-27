@@ -20,12 +20,13 @@ body {
     letter-spacing: 0.02em;
 }
 
-h2,h3 {
+h1,h2,h3,h4,h5,h6 {
     color: var(--dark);
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-li {
+ul {
     list-style-type: none;
 }
 
@@ -77,7 +78,7 @@ li {
 /* logo Header */
 
 .logo {
-    color: var(--dark);
+    color: var(--primary-brand);
     font-family: 'raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -89,12 +90,12 @@ li {
 
 /* Logo footer */
 
-.logo-web {
-    color: var(--primary-brand);
+.logo .logo-studio {
+    color: var(--dark);
 
 }
 
-.logo-studio {
+.footer .logo-studio {
     color: var(--light);
 }
 
@@ -141,16 +142,8 @@ li {
     letter-spacing: 0.02em;
 }
 
-.capitalize {
-    text-transform: capitalize;
-}
-
 .hero {
     background-color: var(--dark);
-}
-
-.btn-primary {
-    text-align: center;
 }
 
 /* Advantage */
@@ -167,7 +160,6 @@ li {
 
 .example-title {
     text-align: center;
-    text-transform: capitalize;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -215,3 +207,11 @@ li {
         /* Portfolio HTML */
 
 /* Our Proects */
+
+.proects-text {
+    text-transform: capitalize;
+}
+
+.proects-title {
+    font-weight: 600;
+}
